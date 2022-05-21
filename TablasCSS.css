@@ -1,0 +1,345 @@
+#frame {
+    width: 800px;
+    height: 490px;
+    margin: auto;
+    background-image: url("wood.jpg");
+    background-size: contain;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 535px;
+    border-collapse: collapse;
+    margin: auto;
+    position: relative;
+}
+.colors {
+    background-color: #418109;
+    text-align: center;
+    font-weight: 700;
+}
+
+td{
+    border: 0px;
+    height: 50px;
+}
+
+.navy, .red1, .white, .gray {
+    width: 70px;
+}
+
+.black, .teal, .blue, .lime, .purple, .yellow, .olive, .marron, .olive, .red, .fuchsia {
+    width: 90px;
+}
+
+section {
+    width: 610px;
+    margin: auto;
+}
+p {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+
+.green {
+background-color: #418109;
+}
+
+.black {
+background-color: black;
+}
+
+.teal {
+background-color: #3a8283;
+}
+
+.blue {
+background-color: #244afb;
+}
+
+.navy {
+background-color: #0e2181;
+}
+
+.lime {
+background-color: #7ff21a;
+}
+
+.white{
+background-color: white;
+}
+
+.purple {
+background-color: #802e7f;
+}
+
+.yellow {
+background-color: #fdf731;
+}
+
+.olive {
+background-color: #7f8013;
+}
+
+.red {
+background-color: #e93f33;
+}
+
+.red1 {
+    background-color: #e93f33;
+    }
+
+.marron {
+background-color: #0a0100;
+}
+
+.gray {
+background-color: #808080;
+}
+
+.fuchsia {
+background-color: #e55ffe;
+}
+
+.f-green {
+    color: #418109;
+    }
+    
+.f-black {
+    color: black;
+    }
+    
+.f-teal {
+    color: #3a8283;
+    }
+    
+.f-blue {
+    color: #244afb;
+    }
+    
+.f-navy {
+    color: #0e2181;
+    }
+    
+.f-lime {
+    color: #7ff21a;
+    }
+
+.f-white{
+    color: white;
+    }
+    
+.f-purple {
+    color: #802e7f;
+    }
+    
+.f-yellow {
+    color: #fdf731;
+    }
+    
+.f-olive {
+    color: #7f8013;
+    }
+    
+.f-red {
+    color: #e93f33;
+    }
+    
+.f-marron {
+    color: #0a0100;
+    }
+    
+.f-gray {
+    color: #808080;
+    }
+    
+.f-fuchsia {
+    color: #e55ffe;
+    }
+.f-aqua {
+    color: #72eacf;
+}
+
+.f-silver {
+    color: #c3bbb1;
+}
+
+
+/* CSS para segunda imagen*/
+
+#frame-grid {
+    width: 800px;
+    height: 490px;
+    margin: auto;
+    background-image: url("wood.jpg");
+    background-size: contain;
+    padding: 5px;
+}
+
+
+.table-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    width: 535px;
+    margin: auto;
+    height: 220px;
+}
+
+.colors-grid {
+        grid-column-start: 1;
+        grid-column-end: 7;
+        background-color: #418109;
+}
+
+.green-grid {
+    grid-column-start: 4;
+    grid-column-end: 7;
+    background-color: #418109;
+    }
+    
+    .black-grid {
+    background-color: black;
+    }
+    
+    .teal-grid {
+    background-color: #3a8283;
+    }
+    
+    .blue-grid {
+    background-color: #244afb;
+    }
+    
+    .navy-grid {
+    background-color: #0e2181;
+    }
+    
+    .lime-grid {
+    background-color: #7ff21a;
+    }
+    
+    .white-grid {
+    background-color: white;
+    }
+    
+    .purple-grid {
+    background-color: #802e7f;
+    }
+    
+    .yellow-grid {
+    background-color: #fdf731;
+    }
+    
+    .olive-grid {
+    background-color: #7f8013;
+    }
+    
+    .red-grid {
+    background-color: #e93f33;
+    }
+
+    .red1-grid {
+        background-color: #e93f33;
+        }
+    
+    .marron-grid {
+    background-color: #0a0100;
+    }
+    
+    .gray-grid {
+    background-color: #808080;
+    }
+    
+    .fuchsia-grid {
+    background-color: #e55ffe;
+    }
+
+#font-colors1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+}
+
+#font-colors2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto auto;
+    width: 635px;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+
+}
+
+
+.f-green-grid {
+    color: #418109;
+    }
+    
+.f-black-grid {
+    color: black;
+    }
+    
+.f-teal-grid {
+    color: #3a8283;
+    }
+    
+.f-blue-grid {
+    color: #244afb;
+    }
+    
+.f-navy-grid {
+    color: #0e2181;
+    }
+    
+.f-lime-grid {
+    color: #7ff21a;
+    }
+
+.f-white-grid {
+    color: white;
+    }
+    
+.f-purple-grid {
+    color: #802e7f;
+    }
+    
+.f-yellow-grid {
+    color: #fdf731;
+    }
+    
+.f-olive-grid {
+    color: #7f8013;
+    }
+    
+.f-red-grid {
+    color: #e93f33;
+    }
+    
+.f-marron-grid {
+    color: #0a0100;
+    }
+    
+.f-gray-grid {
+    color: #808080;
+    }
+    
+.f-fuchsia-grid {
+    color: #e55ffe;
+    }
+.f-aqua-grid {
+    color: #72eacf;
+}
+
+.f-silver-grid {
+    color: #c3bbb1;
+}
